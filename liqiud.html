@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html to="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liquid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="design/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+        li a{
+          text-decoration: none;
+          color: #fff;
+        }
+      </style>
+  </head>
+    <div class="blue-wave-container">
+      <div class="header-wrapper">
+        <div class="header">
+          <div class="logo">State Of Matter</div>
+          <div class="navigation">
+            <ul>
+              <li><a href="pages/gas.html">Gas</a></li>
+              <li><a href="pages/liquid.html">Liquid</a></li>
+              <li><a href="pages/plasma.html">Plasma</a></li>  
+              <li><a href="pages/solid.html">Solid</a></li>
+            </ul>
+          </div>
+
+          <div class="login">
+            <a href="{{ url_for('home') }}">Home</a>
+          </div>
+        </div>
+        </div>
+        <div class="banner">
+        <div class="fisherman-wrapper">
+        <div class="fisherman-image" data-aos="zoom-in" data-aos-delay="300">
+          <img src="./static/svg/liquid.svg" width="400" alt="" />
+        </div>
+        <div
+          class="fisherman-info"
+          data-aos="fade-right"
+          width="600"
+          data-aos-delay="600">
+          <h2>Liquid</h2>
+          <p>
+            A liquid is a sample of matter that conforms to the shape of a container in which it is held, and which acquires a defined surface in the presence of gravity. The term liquid is also used in reference to the state, or condition, of matter having this property.
+        </p>
+        <h2>Example of Liquid</h2>
+        <p>A liquid is a substance which is not solid but which flows and can be poured, for example water.</p>
+        </div>
+        </div>
+        </div>
+    </div>
+  </body>
+  <style>
+    .footer {
+      height: 15rem;
+      padding: 2rem 10rem;
+      display: flex;
+      background: #0e0f34;
+    }
+
+    .footer .details {
+      width: 30rem;
+    }
+
+    .footer .details h2 {
+      color: #fff;
+    }
+
+    .footer .details p {
+      color: #fff;
+    }
+
+    ::placeholder {
+      color: #8a8989;
+      opacity: 1; /* Firefox */
+    }
+
+    .signature {
+      background: #0e0f34;
+      display: flex;
+      color: #fff;
+      justify-content: center;
+    }
+  </style>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
